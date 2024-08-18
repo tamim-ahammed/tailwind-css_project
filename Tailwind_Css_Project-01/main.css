@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .content{
+        @apply bg-[#333333] text-white px-1.5 py-0.5 uppercase text-xs rounded-sm dark:bg-[#42669e];
+    }
+    .btn{
+        @apply uppercase bg-[#5677AC26] px-1.5 py-0.5 font-semibold text-xs md:text-sm hover:bg-black hover:text-white transition-all rounded-sm cursor-pointer dark:bg-slate-400 hover:dark:bg-[#42669e];
+    }
+
+    .news-p{
+        @apply font-semibold bg-[#E6EBF3] text-center md:py-4 py-2 rounded-full hover:bg-slate-300 transition-all hover:scale-105 duration-300 cursor-pointer w-full md:text-lg;
+    }
+
+    .btn-2{
+        @apply font-semibold bg-[#5677AC] text-center md:py-4 py-2 rounded-full hover:bg-[#42669e] text-white transition-all hover:scale-105 duration-300 cursor-pointer w-full md:text-lg;
+    }
+}
